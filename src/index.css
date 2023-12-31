@@ -22,7 +22,7 @@
     }
 
     h4 {
-        @apply font-semibold text-lg
+        @apply font-semibold font-secondary text-lg
     }
 
     h5 {

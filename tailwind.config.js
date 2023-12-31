@@ -79,6 +79,9 @@ export default {
       fontSize: {
         "5xl": "42px",
       },
+      boxShadow: {
+        custom:' 0px 0px 25px 0px rgba(0, 0, 0, 0.10)'
+      }
     },
   },
   plugins: [],
