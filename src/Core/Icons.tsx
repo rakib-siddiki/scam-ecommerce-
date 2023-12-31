@@ -1,12 +1,8 @@
-import { 
-  LucideProps, 
-  ShoppingCart, 
-  Heart,
-  ZoomIn,
- } from "lucide-react";
+import { LucideProps, ShoppingCart, Heart, User, ZoomIn } from "lucide-react";
 
 export const Icons = {
   ZoomIn,
+  User,
   Heart,
   ShoppingCart,
   EmptyBox: (props: LucideProps) => {
