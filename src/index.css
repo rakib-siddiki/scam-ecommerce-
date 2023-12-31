@@ -42,6 +42,9 @@
     .price-cut {
         @apply text-xs line-through
     }
+    .icon-container{
+        @apply flex items-center justify-center w-7 h-7 rounded-full text-shade-500 hover:bg-primary-400 hover:text-line-300 transition-all duration-300 ease-linear cursor-pointer
+    }
     .section-gap{
         @apply mb-16 lg:mb-20
     }

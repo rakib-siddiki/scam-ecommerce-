@@ -1,7 +1,14 @@
-import { LucideProps, Moon } from "lucide-react";
+import { 
+  LucideProps, 
+  ShoppingCart, 
+  Heart,
+  ZoomIn,
+ } from "lucide-react";
 
 export const Icons = {
-  Moon,
+  ZoomIn,
+  Heart,
+  ShoppingCart,
   EmptyBox: (props: LucideProps) => {
     <svg
       {...props}
