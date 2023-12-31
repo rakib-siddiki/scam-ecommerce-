@@ -1,6 +1,7 @@
 import { FC } from "react";
 import { Iproducts } from "./typs/Iproducts";
 import cn from "../utils/cn";
+import { Icons } from "./Icons";
 interface IProps extends Iproducts {
   cardWidth: string;
 }
