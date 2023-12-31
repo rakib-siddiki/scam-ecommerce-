@@ -1,10 +1,11 @@
 import React from "react";
-import { Navbar } from "../components";
+import { Banner, Navbar } from "../components";
 
 const Home: React.FC = () => {
   return (
     <div>
       <Navbar />
+      <Banner/>
     </div>
   );
 };
