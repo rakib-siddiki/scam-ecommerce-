@@ -49,3 +49,11 @@
         @apply mb-16 lg:mb-20
     }
 }
+
+.slick-dots{
+   
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
