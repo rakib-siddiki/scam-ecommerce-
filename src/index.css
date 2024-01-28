@@ -1,51 +1,55 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Lato:wght@100;300;400;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Lato:wght@100;300;400;700;900&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-    --primary: 'Josefin Sans', sans-serif;
-    --secondary: 'Lato', sans-serif;
+  --primary: "Josefin Sans", sans-serif;
+  --secondary: "Lato", sans-serif;
 }
 
 @layer base {
-    body {
-        @apply font-primary;
-    }
+  body {
+    @apply font-primary text-base font-normal text-black/80;
+  }
 
-    h2 {
-        @apply font-bold text-5xl
-    }
+  h2 {
+    @apply font-bold text-5xl;
+  }
 
-    h3 {
-        @apply font-bold text-4xl
-    }
+  h3 {
+    @apply font-bold text-4xl;
+  }
 
-    h4 {
-        @apply font-semibold font-secondary text-lg
-    }
+  h4 {
+    @apply font-semibold font-secondary text-lg;
+  }
 
-    h5 {
-        @apply font-light text-sm
-    }
+  h5 {
+    @apply font-light text-sm;
+  }
 
-    p {
-        @apply font-secondary
-    }
+  p {
+    @apply font-secondary;
+  }
 }
 
 @layer utilities {
-    .price {
-        @apply font-secondary text-sm
-    }
+  .price {
+    @apply font-secondary text-sm;
+  }
 
-    .price-cut {
-        @apply text-xs line-through
-    }
-    .icon-container{
-        @apply flex items-center justify-center w-7 h-7 rounded-full text-shade-500 hover:bg-primary-400 hover:text-line-300 transition-all duration-300 ease-linear cursor-pointer
-    }
-    .section-gap{
-        @apply mb-16 lg:mb-20
-    }
+  .price-cut {
+    @apply text-xs line-through;
+  }
+  .icon-container {
+    @apply flex items-center justify-center w-7 h-7 rounded-full text-shade-500 hover:bg-primary-400 hover:text-line-300 transition-all duration-300 ease-linear cursor-pointer;
+  }
+  .section-gap {
+    @apply mb-16 lg:mb-20;
+  }
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
