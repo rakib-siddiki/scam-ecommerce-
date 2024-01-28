@@ -1,1 +1,2 @@
-export * from "./Iproducts"
+export * from './Iproducts'
+export * from './IWhatShopexOffer'

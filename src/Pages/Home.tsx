@@ -1,11 +1,26 @@
 import React from "react";
-import { Banner, Navbar } from "../components";
+import {
+  Banner,
+  FeaturedProducts,
+  LatestProducts,
+  Navbar,
+  ShowCaseProducts,
+  TrandingProducts,
+  WhatShopexOffer,
+} from "../components";
 
 const Home: React.FC = () => {
   return (
     <div>
       <Navbar />
-      <Banner/>
+      <div className="flex flex-col gap-y-16 lg:gap-y-20">
+        <Banner />
+        <FeaturedProducts />
+        <LatestProducts />
+        <WhatShopexOffer />
+        <ShowCaseProducts />
+        <TrandingProducts />
+      </div>
     </div>
   );
 };
